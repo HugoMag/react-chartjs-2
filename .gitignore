@@ -13,11 +13,6 @@ coverage
 coverage.html
 .cover*
 
-# Build directories
-lib
-dist
-es
-
 # Example build directory
 example/dist
 .publish
