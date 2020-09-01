@@ -28,20 +28,20 @@ const config = {
 
 
 if (env === 'production') {
-   config.plugins.push(
+  config.plugins.push(
     uglify({
       compress: {
         pure_getters: true,
         unsafe: true,
         unsafe_comps: true,
-        warnings: false
       },
+      warnings: false,
     })
   );
 
   config.plugins.push(
     replace({
-      'process.env.NODE_ENV': JSON.stringify( 'production' )
+      'process.env.NODE_ENV': JSON.stringify('production')
     })
   )
 }

@@ -96,8 +96,8 @@ else {
 
     new webpack.optimize.UglifyJsPlugin({
       comments: false,
+      warnings: false,
       compress: {
-        warnings: false,
         screw_ie8: true,
         conditionals: true,
         unused: true,

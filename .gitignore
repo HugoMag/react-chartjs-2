@@ -13,9 +13,6 @@ coverage
 coverage.html
 .cover*
 
-# Dependency directory
-node_modules
-
 # Build directories
 lib
 dist
